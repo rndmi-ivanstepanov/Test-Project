@@ -1,4 +1,4 @@
-package ru.stepanov.test_using_java_class_config;
+package ru.stepanov.hw;
 
 public class Computer {
     private final int id = 1;

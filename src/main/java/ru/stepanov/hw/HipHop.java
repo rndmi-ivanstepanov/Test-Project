@@ -1,6 +1,8 @@
-package ru.stepanov.test_using_java_class_config;
+package ru.stepanov.hw;
+
 
 public class HipHop implements Music {
+
     @Override
     public String getSong() {
         return "\"Sing For The Moment\" - Eminem";

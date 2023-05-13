@@ -1,7 +1,8 @@
-package ru.stepanov.test_using_java_class_config;
+package ru.stepanov.hw;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import ru.stepanov.hw.Music;
 
 
 public class MusicPlayer {
