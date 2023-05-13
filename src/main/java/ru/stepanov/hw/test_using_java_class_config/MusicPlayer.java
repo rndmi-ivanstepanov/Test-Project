@@ -1,4 +1,4 @@
-package ru.stepanov.test_using_java_class_config;
+package ru.stepanov.hw.test_using_java_class_config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
