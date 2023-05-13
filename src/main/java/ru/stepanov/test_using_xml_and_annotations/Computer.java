@@ -1,4 +1,4 @@
-package ru.stepanov.test_using_java_class;
+package ru.stepanov.test_using_xml_and_annotations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

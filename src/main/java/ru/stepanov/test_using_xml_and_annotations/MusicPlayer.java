@@ -1,11 +1,11 @@
-package ru.stepanov.test_using_java_class;
+package ru.stepanov.test_using_xml_and_annotations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-import ru.stepanov.test_using_java_class.genres.Music;
+import ru.stepanov.test_using_xml_and_annotations.genres.Music;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.util.Random;
