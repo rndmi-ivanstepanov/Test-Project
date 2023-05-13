@@ -2,8 +2,8 @@ package ru.stepanov.hw;
 
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ru.stepanov.hw.MusicPlayer;
-import ru.stepanov.hw.SpringConfig;
+import ru.stepanov.hw.config.SpringConfig;
+import ru.stepanov.hw.devices.MusicPlayer;
 
 public class TestSpring {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class TestSpring {
         );
 
         MusicPlayer player = context.getBean("musicPlayer", MusicPlayer.class);
-        System.out.println(player);
+        System.out.println(player.playMusic());
         context.close();
     }
 }

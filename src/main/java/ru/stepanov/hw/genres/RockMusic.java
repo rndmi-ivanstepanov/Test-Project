@@ -1,6 +1,4 @@
-package ru.stepanov.hw;
-
-import ru.stepanov.hw.Music;
+package ru.stepanov.hw.genres;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -13,15 +11,5 @@ public class RockMusic implements Music {
     @Override
     public String getSong() {
         return "\"Get Me Out\" - No Resolve";
-    }
-
-    @PostConstruct
-    public void doInit() {
-        System.out.println("rock music bean initialization");
-    }
-
-    @PreDestroy
-    public void doDestroy() {
-        System.out.println("rock music bean destruction");
     }
 }

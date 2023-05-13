@@ -1,6 +1,4 @@
-package ru.stepanov.hw;
-
-import ru.stepanov.hw.Music;
+package ru.stepanov.hw.genres;
 
 public class TranceMusic implements Music {
 

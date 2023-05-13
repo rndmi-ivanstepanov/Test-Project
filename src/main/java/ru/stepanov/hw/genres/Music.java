@@ -1,4 +1,4 @@
-package ru.stepanov.hw;
+package ru.stepanov.hw.genres;
 
 import java.util.List;
 

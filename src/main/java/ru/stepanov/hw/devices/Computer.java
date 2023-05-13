@@ -1,4 +1,4 @@
-package ru.stepanov.hw;
+package ru.stepanov.hw.devices;
 
 public class Computer {
     private final int id = 1;
