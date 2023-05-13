@@ -6,7 +6,7 @@ import javax.annotation.PreDestroy;
 public class RockMusic implements Music {
     @Override
     public String getSong() {
-        return "\"Get Me Out\" - No Resolve";
+        return "\"Get Me Out\" - No Resolve1";
     }
 
     @PostConstruct
