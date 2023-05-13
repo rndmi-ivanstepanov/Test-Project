@@ -1,8 +1,6 @@
-package ru.stepanov.test0705;
+package ru.stepanov.test_using_java_class;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.util.*;
 
 public class TestSpring {
     public static void main(String[] args) {

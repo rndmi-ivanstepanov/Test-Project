@@ -1,4 +1,4 @@
-package ru.stepanov.test0705.genres;
+package ru.stepanov.test_using_java_class.genres;
 
 import org.springframework.stereotype.Component;
 
