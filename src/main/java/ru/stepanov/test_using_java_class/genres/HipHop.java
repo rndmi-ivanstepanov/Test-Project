@@ -9,6 +9,11 @@ import java.util.List;
 public class HipHop implements Music {
     private final List<String> hipHopList = new ArrayList<>();
 
+    {
+        hipHopList.add("Clouds - NF");
+        hipHopList.add("Money long - kizaru");
+        hipHopList.add("Bandana - Big Baby Tape");
+    }
 
     @Override
     public List<String> getSong() {
