@@ -1,9 +1,12 @@
-package ru.stepanov.hw.test_using_java_class_config;
+package ru.stepanov.hw;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import ru.stepanov.hw.HipHop;
+import ru.stepanov.hw.MusicPlayer;
+import ru.stepanov.hw.RockMusic;
 
 @Configuration
 @ComponentScan("ru.stepanov.test_using_java_class_config")

@@ -1,7 +1,4 @@
-package ru.stepanov.hw.test_using_java_class_config;
-
-import java.util.ArrayList;
-import java.util.List;
+package ru.stepanov.hw;
 
 
 public class HipHop implements Music {

@@ -1,4 +1,4 @@
-package ru.stepanov.hw.test_using_java_class_config;
+package ru.stepanov.hw;
 
 import java.util.List;
 
